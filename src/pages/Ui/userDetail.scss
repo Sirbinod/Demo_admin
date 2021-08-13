@@ -1,0 +1,36 @@
+.user-card {
+  margin: 0 8rem;
+  border: 1px solid rgb(236, 235, 235);
+
+  .user-basic {
+    .user-name {
+      font-size: 2rem;
+      color: rgb(19, 18, 18);
+      font-weight: 500;
+    }
+    .user-email {
+      line-height: 0.5rem;
+      font-size: 1rem;
+    }
+  }
+  .user-detail {
+    margin-top: 1rem;
+    .user-detail-contain {
+      justify-content: space-between;
+      .user-detail-title {
+        font-size: 1.4rem;
+        color: rgb(177, 174, 174);
+        padding: 2rem 0 1rem;
+      }
+    }
+    .user-detail-name {
+      font-size: 1.3rem;
+      color: rgb(19, 18, 18);
+      padding: 2rem 0 1rem;
+      font-weight: 500;
+    }
+    .divider {
+      border-bottom: 1px solid rgb(232, 229, 229);
+    }
+  }
+}
