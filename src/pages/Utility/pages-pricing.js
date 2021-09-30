@@ -65,9 +65,9 @@ const PagesPricing = () => {
         <Container fluid>
           {/* Render Breadcrumbs */}
           <Breadcrumbs
-            maintitle="Veltrix"
-            title="Extra Pages"
-            breadcrumbItem="Subscription"
+            maintitle="JobsTrobstech"
+            title="Subscription"
+            breadcrumbItem="Subscription Plan"
           />
 
           <Row style={{ margin: "0 3rem" }}>

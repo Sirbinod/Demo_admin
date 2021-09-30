@@ -381,12 +381,12 @@ const CompanyCreate = () => {
     <React.Fragment>
       <div className="page-content">
         <MetaTags>
-          <title>User Create | Job</title>
+          <title>User Create</title>
         </MetaTags>
         <Container fluid={true}>
           <Breadcrumbs
-            maintitle="Veltrix"
-            title="Form"
+            maintitle="JobsTroubstech"
+            title="User"
             breadcrumbItem="User Create"
           />
 

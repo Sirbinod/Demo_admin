@@ -147,7 +147,7 @@ const SidebarContent = props => {
                 </li>
               </ul>
             </li>
-            <li>
+            {/* <li>
               <Link to="/#" className="has-arrow waves-effect">
                 <i className="ti-layout-media-center-alt"></i>
                 <span>{props.t("Page")}</span>
@@ -161,6 +161,7 @@ const SidebarContent = props => {
                 </li>
               </ul>
             </li>
+           */}
           </ul>
         </div>
       </SimpleBar>

@@ -36,24 +36,24 @@ const UiCards = props => {
     <React.Fragment>
       <div className="page-content">
         <MetaTags>
-          <title>Cards |</title>
+          <title>Company Profile</title>
         </MetaTags>
         <Container fluid={true}>
           <Breadcrumbs
-            maintitle="Veltrix"
-            title="UI Elements"
-            breadcrumbItem="Cards"
+            maintitle="JobsTrobustech"
+            title="Copmany"
+            breadcrumbItem="Comapny Profile"
           />
 
-          <Row>
+          <Row className="mt-3 mb-5">
             <Col>
-              <Card body className="mx-5 px-4">
+              <Card body className="company-profile">
                 <Row>
                   <Col>
                     <div className="h3 mt-0">
                       LightWeb Group
                       <Link
-                        to="#"
+                        to="/form-wizard"
                         className="btn btn-primary waves-effect waves-light mx-3"
                       >
                         Edit
@@ -73,11 +73,11 @@ const UiCards = props => {
                   </Col>
                   <Col md={4}>
                     <Row className="mb-4">
-                      <Col>
+                      <Col md={7}>
                         <h5>Expired Date</h5>
                         <h5>09/20/2021</h5>
                       </Col>
-                      <Col>
+                      <Col md={5}>
                         <h5>Status</h5>
                         <h5>Active</h5>
                       </Col>

@@ -342,13 +342,13 @@ const UserList = () => {
     <React.Fragment>
       <div className="page-content">
         <MetaTags>
-          <title>Company List</title>
+          <title>User List</title>
         </MetaTags>
         <div className="container-fluid">
           <Breadcrumbs
-            maintitle="Job"
-            title="Tables"
-            breadcrumbItem="Company List"
+            maintitle="Jobstrobstech"
+            title="User "
+            breadcrumbItem="User List"
           />
 
           <Row>

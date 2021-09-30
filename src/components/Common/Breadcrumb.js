@@ -18,22 +18,23 @@ const Breadcrumb = props => {
     <Row className="align-items-center">
       <Col sm={6}>
         <div className="page-title-box">
-          <h4 className="font-size-18">{props.breadcrumbItem}</h4>
           <ol className="breadcrumb mb-0">
             {props.maintitle ? (
               <>
-                {/* <BreadcrumbItem>
+                <BreadcrumbItem>
                   <Link to="/#">{props.maintitle}</Link>
-                </BreadcrumbItem> */}
+                </BreadcrumbItem>
               </>
             ) : (
               ""
             )}
             <BreadcrumbItem>
-              {/* <Link to="/#">{props.title}</Link> */}
+              <Link to="/#">{props.title}</Link>
             </BreadcrumbItem>
-            {/* <BreadcrumbItem active>{props.breadcrumbItem}</BreadcrumbItem> */}
+            <BreadcrumbItem active>{props.breadcrumbItem}</BreadcrumbItem>
           </ol>
+
+          <h4 className="font-size-18 mt-3">{props.breadcrumbItem}</h4>
         </div>
       </Col>
       {/* <Col sm={6}>

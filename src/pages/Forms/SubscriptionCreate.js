@@ -381,13 +381,13 @@ const SubscriptionCreate = () => {
     <React.Fragment>
       <div className="page-content">
         <MetaTags>
-          <title>Form Advanced | Job</title>
+          <title>Subscription Create</title>
         </MetaTags>
         <Container fluid={true}>
           <Breadcrumbs
-            maintitle="Veltrix"
-            title="Form"
-            breadcrumbItem="Form Advanced"
+            maintitle="JobsTrobstech"
+            title="Subscription"
+            breadcrumbItem="Subscription Create"
           />
 
           <Row>

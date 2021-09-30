@@ -41,7 +41,9 @@ const Login = props => {
                 <div className="bg-primary">
                   <div className="text-primary text-center p-4">
                     <h5 className="text-white font-size-20">Welcome Back !</h5>
-                    <p className="text-white-50">Sign in to continue to Job.</p>
+                    <p className="text-white-50">
+                      Sign in to continue to JobsTrobstech.
+                    </p>
                     <Link to="/" className="logo logo-admin">
                       <img src={logoSm} height="24" alt="logo" />
                     </Link>
@@ -129,8 +131,8 @@ const Login = props => {
                   </Link>{" "}
                 </p>
                 <p>
-                  © {new Date().getFullYear()} Veltrix. Crafted with{" "}
-                  <i className="mdi mdi-heart text-danger" /> by Themesbrand
+                  © {new Date().getFullYear()} JobsTrobustech. Crafted with{" "}
+                  <i className="mdi mdi-heart text-danger" />
                 </p>
               </div>
             </Col>

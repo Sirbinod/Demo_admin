@@ -92,12 +92,12 @@ const FormWizard = () => {
     <React.Fragment>
       <div className="page-content">
         <MetaTags>
-          <title>Create Comapany</title>
+          <title>Comapany Create</title>
         </MetaTags>
         <Container fluid={true}>
           <Breadcrumbs
-            maintitle="Veltrix"
-            title="Forms"
+            maintitle="JobsTrobstech"
+            title="Company"
             breadcrumbItem="Company Create"
           />
 

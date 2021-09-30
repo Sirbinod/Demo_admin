@@ -346,8 +346,8 @@ const CompanyList = () => {
         </MetaTags>
         <div className="container-fluid">
           <Breadcrumbs
-            maintitle="Job"
-            title="Tables"
+            maintitle="JobsTrobstech"
+            title="Company"
             breadcrumbItem="Company List"
           />
 

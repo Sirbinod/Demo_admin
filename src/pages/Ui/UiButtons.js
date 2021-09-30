@@ -25,13 +25,13 @@ const UiButtons = () => {
     <React.Fragment>
       <div className="page-content">
         <MetaTags>
-          <title>User</title>
+          <title>User Profile</title>
         </MetaTags>
         <Container fluid={true}>
           <Breadcrumbs
-            maintitle="Veltrix"
-            title="UI Elements"
-            breadcrumbItem="User Detail"
+            maintitle="JobsTrobustech"
+            title="User"
+            breadcrumbItem="User Profile"
           />
 
           <Row>
